@@ -19,6 +19,7 @@ ok cask virtualbox
 ok cask vlc
 ok cask mailbox
 ok cask couleurs
+ok cask keepingyouawake
 
 # Quick Look plugins - https://github.com/sindresorhus/quick-look-plugins
 ok cask qlcolorcode
