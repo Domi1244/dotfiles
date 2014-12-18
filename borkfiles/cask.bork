@@ -23,6 +23,7 @@ ok cask keepingyouawake
 
 # Quick Look plugins - https://github.com/sindresorhus/quick-look-plugins
 ok cask qlcolorcode
+ok cask qlimagesize
 ok cask qlstephen
 ok cask qlmarkdown
 ok cask quicklook-json
