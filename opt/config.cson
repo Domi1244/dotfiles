@@ -14,8 +14,8 @@
       "atom-color-highlight"
     ]
     themes: [
-      "neutron-ui"
-      "neutron-syntax"
+      "spacegray-dark-ui"
+      "spacegray-atom-dark-syntax"
     ]
   "exception-reporting":
     userId: "7b5e9cc8-5e80-0adb-becc-f7440823c7d3"
