@@ -1,35 +1,53 @@
 "*":
-  editor:
-    preferredLineLength: 1
-    softWrap: true
-    invisibles: {}
+  "*":
+    editor:
+      preferredLineLength: 1
+      softWrap: true
+    core:
+      ignoredNames: [
+        ".git"
+        ".svn"
+        ".DS_Store"
+      ]
+      disabledPackages: [
+        "atom-alignment"
+        "atom-color-highlight"
+      ]
+      themes: [
+        "neutron-ui"
+        "neutron-syntax"
+      ]
+    "exception-reporting":
+      userId: "7b5e9cc8-5e80-0adb-becc-f7440823c7d3"
+    "release-notes":
+      viewedVersion: "0.60.0"
+    welcome:
+      showOnStartup: false
+    metrics:
+      userId: "dfdcf7a9edf0c25603df4e067dca3e87503ad0fb"
+    "atom-beautify":
+      _analyticsUserId: "a16214ef-4e66-4cbd-91a1-69c2d1f6bfca"
+    "file-types":
+      html5: "text.html.php"
+    "highlight-line":
+      underline:
+        solid: false
+      enableUnderline: true
+  "exception-reporting":
+    userId: "5cfacd02-55ae-f217-339a-86da9cfdcc76"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "acac476432573b0759336f2a823bf5b88559f342"
   core:
-    ignoredNames: [
-      ".git"
-      ".svn"
-      ".DS_Store"
-    ]
     disabledPackages: [
-      "atom-alignment"
       "atom-color-highlight"
     ]
     themes: [
       "spacegray-dark-ui"
       "spacegray-atom-dark-syntax"
     ]
-  "exception-reporting":
-    userId: "7b5e9cc8-5e80-0adb-becc-f7440823c7d3"
-  "release-notes":
-    viewedVersion: "0.60.0"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "dfdcf7a9edf0c25603df4e067dca3e87503ad0fb"
-  "atom-beautify":
-    _analyticsUserId: "a16214ef-4e66-4cbd-91a1-69c2d1f6bfca"
-  "file-types":
-    html5: "text.html.php"
-  "highlight-line":
-    underline:
-      solid: false
-    enableUnderline: true
+  editor:
+    fontFamily: "Droid Sans Mono"
+    fontSize: 15
+    invisibles: {}

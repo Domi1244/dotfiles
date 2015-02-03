@@ -54,7 +54,7 @@ function parse_git_branch() {
 
 #export PS1="[\u\[$WHITE\]@\h:\[$GREEN\]\W\[$WHITE\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$PURPLE\]\$(parse_git_branch)\[$WHITE\]] $ \[$RESET\]"
 #export PS1="[\[$GREEN\]\w\[$WHITE\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$PURPLE\]\$(parse_git_branch)\[$WHITE\]] $ \[$RESET\]"
-export PS1="▶ \[$GREEN\]\w\[$WHITE\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \":\")\[$PURPLE\]\$(parse_git_branch)\[$WHITE\] \[$RESET\]"
+export PS1="▶ \[$GREEN\]\W\[$WHITE\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \":\")\[$PURPLE\]\$(parse_git_branch)\[$WHITE\] \[$RESET\]"
 
 # use login instead of su to prevent "sh: parse_git_branch: command not found" when logged in as root
 alias su="login root"
