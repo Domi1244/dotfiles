@@ -19,6 +19,7 @@ ok brew python
 ok brew youtube-dl
 ok brew heroku-toolbelt
 ok brew tmux
+ok brew reattach-to-user-namespace
 ok brew mysql
 ok brew go
 ok brew z
