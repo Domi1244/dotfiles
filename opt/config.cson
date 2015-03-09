@@ -44,10 +44,14 @@
       "atom-color-highlight"
     ]
     themes: [
-      "spacegray-dark-ui"
-      "spacegray-atom-dark-syntax"
+      "one-dark-ui"
+      "one-dark-syntax"
     ]
   editor:
     fontFamily: "Droid Sans Mono"
-    fontSize: 15
     invisibles: {}
+    fontSize: 17
+  "atom-beautify":
+    _analyticsUserId: "391fdea6-76e0-4398-8282-928a70f1c7a0"
+  docblockr: {}
+  "autocomplete-plus": {}
