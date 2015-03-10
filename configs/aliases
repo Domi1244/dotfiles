@@ -19,8 +19,8 @@ alias sub="open -a /Applications/Sublime\ Text\ 2.app"
 # Git
 alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 
-alias igt = "git"
-alias gti = "git"
+alias igt="git"
+alias gti="git"
 
 # Various
 alias error_log="tail -250f /var/log/apache2/error_log"
