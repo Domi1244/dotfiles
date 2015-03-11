@@ -41,6 +41,10 @@ alias whois="whois -h whois-servers.net"
 # Flush Directory Service cache
 alias flush="dscacheutil -flushcache"
 
+# tmux
+
+alias tmux-attach="tmux attach-session -t"
+
 # Recursively delete `.DS_Store` files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
