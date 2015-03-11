@@ -11,11 +11,6 @@ alias ls="ls -G"
 alias ll="ls -al"
 alias lsd='ls -l | grep "^d"'
 
-# Apps
-alias kaboom="open -a Espresso"
-alias fire="open -a /Applications/Adobe\ Fireworks\ CS5.1/Adobe\ Fireworks\ CS5.1.app"
-alias sub="open -a /Applications/Sublime\ Text\ 2.app"
-
 # Git
 alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 
