@@ -1,0 +1,17 @@
+atom-text-editor::shadow {
+
+  .region.bracket-matcher {
+
+    &:before {
+      position: fixed;
+      left: 0;
+      margin-left: -17px;
+      margin-top: -1px;
+      content: '\00a0';
+      z-index: 99999999;
+      background: rgba(255,255,255,.05);
+      color: #fff;
+      right: 0;
+    }
+  }
+}

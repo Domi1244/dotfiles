@@ -12,13 +12,13 @@ else
 fi
 
 # Check if symlink for Atom custom style exists
-if [[ ! -h ${HOME}/.atom/style.less ]]; then
-    echo "missing: symlink ~/.atom/style.less"
-    rm $HOME/.atom/style.less &> /dev/null
-    ln -sf ${HOME}/.dotfiles/opt/style.less ${HOME}/.atom/style.less
-    echo "ok: symlink ~/.atom/style.less"
+if [[ ! -h ${HOME}/.atom/styles.less ]]; then
+    echo "missing: symlink ~/.atom/styles.less"
+    rm $HOME/.atom/styles.less &> /dev/null
+    ln -sf ${HOME}/.dotfiles/opt/styles.less ${HOME}/.atom/styles.less
+    echo "ok: symlink ~/.atom/styles.less"
 else
-    echo "ok: symlink ~/.atom/style.less"
+    echo "ok: symlink ~/.atom/styles.less"
 fi
 
 #
