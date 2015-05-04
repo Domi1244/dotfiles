@@ -43,6 +43,10 @@
     disabledPackages: [
       "atom-color-highlight"
     ]
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
   editor:
     fontFamily: "Droid Sans Mono"
     invisibles: {}
@@ -51,3 +55,4 @@
     _analyticsUserId: "391fdea6-76e0-4398-8282-928a70f1c7a0"
   docblockr: {}
   "autocomplete-plus": {}
+  emmet: {}
