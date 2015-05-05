@@ -50,7 +50,8 @@
   editor:
     fontFamily: "Droid Sans Mono"
     invisibles: {}
-    fontSize: 17
+    fontSize: 18
+    softWrap: true
   "atom-beautify":
     _analyticsUserId: "391fdea6-76e0-4398-8282-928a70f1c7a0"
   docblockr: {}
