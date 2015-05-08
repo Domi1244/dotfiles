@@ -57,3 +57,5 @@
   docblockr: {}
   "autocomplete-plus": {}
   emmet: {}
+  "one-light-ui":
+    layoutMode: "Compact"
