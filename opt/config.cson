@@ -40,15 +40,15 @@
   metrics:
     userId: "acac476432573b0759336f2a823bf5b88559f342"
   core:
-    disabledPackages: [
-      "atom-color-highlight"
-    ]
     themes: [
       "one-light-ui"
       "one-light-syntax"
     ]
+    disabledPackages: [
+      "atom-color-highlight"
+    ]
   editor:
-    fontFamily: "Droid Sans Mono"
+    fontFamily: "Office Code Pro"
     invisibles: {}
     fontSize: 18
     softWrap: true
