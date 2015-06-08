@@ -21,6 +21,16 @@ else
     echo "ok: symlink ~/.atom/styles.less"
 fi
 
+# Check if symlink for Atom custom keymap exists
+if [[ ! -h ${HOME}/.atom/keymap.cson ]]; then
+    echo "missing: symlink ~/.atom/keymap.cson"
+    rm $HOME/.atom/keymap.cson &> /dev/null
+    ln -sf ${HOME}/.dotfiles/opt/keymap.cson ${HOME}/.atom/keymap.cson
+    echo "ok: symlink ~/.atom/keymap.cson"
+else
+    echo "ok: symlink ~/.atom/keymap.cson"
+fi
+
 # Check if symlink for Atom custom style exists
 if [[ ! -h ${HOME}/.atom/init.coffee ]]; then
     echo "missing: symlink ~/.atom/init.coffee"
