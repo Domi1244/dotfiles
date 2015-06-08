@@ -68,3 +68,6 @@
   pigments:
     sortPaletteColors: "by color"
     mergeColorDuplicates: true
+    ignoredNames: [
+      "assets/mootools*"
+    ]
