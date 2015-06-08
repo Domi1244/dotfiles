@@ -31,6 +31,16 @@ else
     echo "ok: symlink ~/.atom/keymap.cson"
 fi
 
+# Check if symlink for Atom custom snippets file exists
+if [[ ! -h ${HOME}/.atom/snippets.cson ]]; then
+    echo "missing: symlink ~/.atom/snippets.cson"
+    rm $HOME/.atom/snippets.cson &> /dev/null
+    ln -sf ${HOME}/.dotfiles/opt/snippets.cson ${HOME}/.atom/snippets.cson
+    echo "ok: symlink ~/.atom/snippets.cson"
+else
+    echo "ok: symlink ~/.atom/snippets.cson"
+fi
+
 # Check if symlink for Atom custom style exists
 if [[ ! -h ${HOME}/.atom/init.coffee ]]; then
     echo "missing: symlink ~/.atom/init.coffee"
