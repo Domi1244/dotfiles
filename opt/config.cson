@@ -65,3 +65,6 @@
     layoutMode: "Compact"
   tabs:
     usePreviewTabs: true
+  pigments:
+    sortPaletteColors: "by color"
+    mergeColorDuplicates: true
