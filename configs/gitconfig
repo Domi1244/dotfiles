@@ -17,7 +17,7 @@
 	oops = commit --amend
   pu = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master"
 [user]
-	email = marian@ideenfrische.de
+	email = marian.friedmann@gmail.com
 	name = Marian Friedmann
 [core]
 	quotepath = false
