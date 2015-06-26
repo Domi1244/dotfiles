@@ -13,3 +13,5 @@ valign
 unity-ui
 pigments
 expand-selection-to-quotes
+minimap
+minimap-git-diff

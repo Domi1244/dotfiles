@@ -69,3 +69,6 @@
     ignoredNames: [
       "assets/mootools*"
     ]
+  minimap:
+    plugins:
+      "git-diff": true
