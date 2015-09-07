@@ -8,6 +8,20 @@ sprunge() {
 	echo $result "copied to clipboard..."
 }
 
+# download entire website
+dlall() {
+	url=$@
+	wget \
+     --recursive \
+     --no-clobber \
+     --page-requisites \
+     --html-extension \
+     --convert-links \
+     --restrict-file-names=windows \
+     --no-parent \
+         $url
+}
+
 # show changes since commit X
 git_changes_since() {
   git archive -o ~/Desktop/changed.zip HEAD $(git diff --name-only --diff-filter=ACMR $1 HEAD)
