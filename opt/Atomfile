@@ -6,6 +6,7 @@ file-icons
 file-types
 git-history
 hashrocket
+highlight-line
 minimap
 minimap-git-diff
 monokai
