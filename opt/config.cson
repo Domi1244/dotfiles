@@ -75,3 +75,4 @@
       "git-diff": true
   hashrocket:
     nodeExecutablePath: "/usr/local/bin/node"
+  "tree-view": {}
