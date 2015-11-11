@@ -7,7 +7,6 @@ ok brew brew-cask
 
 # Install desktop apps
 ok cask atom
-ok cask google-chrome
 ok cask gpgtools
 ok cask alfred
 ok cask dropbox
