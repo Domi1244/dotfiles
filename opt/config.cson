@@ -51,10 +51,10 @@
   editor:
     fontFamily: "Office Code Pro"
     invisibles: {}
-    fontSize: 18
     softWrap: true
     showInvisibles: true
     softWrapAtPreferredLineLength: true
+    fontSize: 18
   "atom-beautify":
     _analyticsUserId: "391fdea6-76e0-4398-8282-928a70f1c7a0"
   docblockr: {}
@@ -76,3 +76,5 @@
   hashrocket:
     nodeExecutablePath: "/usr/local/bin/node"
   "tree-view": {}
+  "the-closer":
+    closeWindowTogetherWithLastTab: false
