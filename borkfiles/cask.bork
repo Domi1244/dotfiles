@@ -22,7 +22,7 @@ ok cask keepingyouawake
 ok cask amethyst
 ok cask beardedspice
 ok cask transmit
-
+ok cask macdown
 
 # Quick Look plugins - https://github.com/sindresorhus/quick-look-plugins
 ok cask qlcolorcode
