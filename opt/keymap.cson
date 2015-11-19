@@ -10,3 +10,7 @@
 
 'atom-text-editor':
   'ctrl-.': 'expand-selection-to-quotes:toggle'
+
+# Stop emmet from hijacking markdown-preview shortcut
+'.editor:not(.mini)':
+  'ctrl-shift-M': 'markdown-preview:toggle'
