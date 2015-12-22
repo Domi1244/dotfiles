@@ -13,7 +13,6 @@ ok cask dropbox
 ok cask sequel-pro
 ok cask nvalt
 ok cask appcleaner
-ok cask scrup
 ok cask virtualbox
 ok cask vlc
 ok cask mailbox
