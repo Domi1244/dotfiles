@@ -1,8 +1,8 @@
 "*":
+  "file-types":
+    html5: "text.html.php"
+    hbt: "text.html"
   "*":
-    "file-types":
-      html5: "text.html.php"
-      hbt: "text.html"
     editor:
       preferredLineLength: 1
       softWrap: true
