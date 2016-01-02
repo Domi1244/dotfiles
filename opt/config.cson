@@ -45,8 +45,8 @@
       "atom-color-highlight"
     ]
     themes: [
-      "one-light-ui"
-      "one-light-syntax"
+      "one-dark-ui"
+      "duotone-dark-syntax"
     ]
   editor:
     fontFamily: "Office Code Pro"
@@ -78,3 +78,5 @@
   "tree-view": {}
   "the-closer":
     closeWindowTogetherWithLastTab: false
+  "one-dark-ui":
+    layoutMode: "Compact"
