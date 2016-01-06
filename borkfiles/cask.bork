@@ -22,6 +22,7 @@ ok cask beardedspice
 ok cask transmit
 ok cask macdown
 ok cask tigervnc-viewer
+ok cask fluid
 
 # Quick Look plugins - https://github.com/sindresorhus/quick-look-plugins
 ok cask qlcolorcode
