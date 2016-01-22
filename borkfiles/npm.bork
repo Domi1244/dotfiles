@@ -10,3 +10,4 @@ ok npm hicat
 ok npm localtunnel
 ok npm keybase-installer
 ok npm browserify
+ok npm nativefier
