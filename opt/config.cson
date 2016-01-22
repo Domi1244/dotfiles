@@ -1,82 +1,87 @@
 "*":
-  "file-types":
-    html5: "text.html.php"
-    hbt: "text.html"
   "*":
-    editor:
-      preferredLineLength: 1
-      softWrap: true
+    "atom-beautify":
+      _analyticsUserId: "a16214ef-4e66-4cbd-91a1-69c2d1f6bfca"
     core:
+      disabledPackages: [
+        "atom-alignment"
+        "atom-color-highlight"
+      ]
       ignoredNames: [
         ".git"
         ".svn"
         ".DS_Store"
       ]
-      disabledPackages: [
-        "atom-alignment"
-        "atom-color-highlight"
-      ]
       themes: [
         "neutron-ui"
         "neutron-syntax"
       ]
+    editor:
+      preferredLineLength: 1
+      softWrap: true
     "exception-reporting":
       userId: "7b5e9cc8-5e80-0adb-becc-f7440823c7d3"
+    "highlight-line":
+      enableUnderline: true
+      underline:
+        solid: false
+    metrics:
+      userId: "dfdcf7a9edf0c25603df4e067dca3e87503ad0fb"
     "release-notes":
       viewedVersion: "0.60.0"
     welcome:
       showOnStartup: false
-    metrics:
-      userId: "dfdcf7a9edf0c25603df4e067dca3e87503ad0fb"
-    "atom-beautify":
-      _analyticsUserId: "a16214ef-4e66-4cbd-91a1-69c2d1f6bfca"
-    "highlight-line":
-      underline:
-        solid: false
-      enableUnderline: true
-  "exception-reporting":
-    userId: "5cfacd02-55ae-f217-339a-86da9cfdcc76"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "acac476432573b0759336f2a823bf5b88559f342"
+  "atom-beautify":
+    _analyticsUserId: "391fdea6-76e0-4398-8282-928a70f1c7a0"
+  "autocomplete-plus": {}
   core:
     disabledPackages: [
       "atom-color-highlight"
+      "spell-check"
+    ]
+    packagesWithKeymapsDisabled: [
+      "spell-check"
     ]
     themes: [
       "one-dark-ui"
-      "duotone-dark-syntax"
+      "duotone-light-syntax"
     ]
+  docblockr: {}
   editor:
     fontFamily: "Office Code Pro"
     invisibles: {}
-    softWrap: true
     showInvisibles: true
+    softWrap: true
     softWrapAtPreferredLineLength: true
-    fontSize: 18
-  "atom-beautify":
-    _analyticsUserId: "391fdea6-76e0-4398-8282-928a70f1c7a0"
-  docblockr: {}
-  "autocomplete-plus": {}
   emmet: {}
-  "one-light-ui":
-    layoutMode: "Compact"
-  tabs:
-    usePreviewTabs: true
-  pigments:
-    sortPaletteColors: "by color"
-    mergeColorDuplicates: true
-    ignoredNames: [
-      "assets/mootools*"
-    ]
+  "exception-reporting":
+    userId: "5cfacd02-55ae-f217-339a-86da9cfdcc76"
+  "file-types":
+    hbt: "text.html"
+    html5: "text.html.php"
+  hashrocket:
+    nodeExecutablePath: "/usr/local/bin/node"
+  metrics:
+    userId: "acac476432573b0759336f2a823bf5b88559f342"
   minimap:
     plugins:
       "git-diff": true
-  hashrocket:
-    nodeExecutablePath: "/usr/local/bin/node"
-  "tree-view": {}
-  "the-closer":
-    closeWindowTogetherWithLastTab: false
   "one-dark-ui":
     layoutMode: "Compact"
+  "one-light-ui":
+    layoutMode: "Compact"
+  pigments:
+    ignoredNames: [
+      "assets/mootools*"
+    ]
+    mergeColorDuplicates: true
+    sortPaletteColors: "by color"
+  "spell-check": {}
+  tabs:
+    usePreviewTabs: true
+  "the-closer":
+    closeWindowTogetherWithLastTab: false
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
