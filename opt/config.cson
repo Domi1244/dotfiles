@@ -83,5 +83,6 @@
     closeWindowTogetherWithLastTab: false
   "tree-view":
     hideVcsIgnoredFiles: true
+    squashDirectoryNames: true
   welcome:
     showOnStartup: false
