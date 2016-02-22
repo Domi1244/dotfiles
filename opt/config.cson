@@ -48,7 +48,8 @@
     ]
   docblockr: {}
   editor:
-    fontFamily: "Office Code Pro"
+    fontFamily: "Operator Mono"
+    fontSize: 16
     invisibles: {}
     showInvisibles: true
     softWrap: true
