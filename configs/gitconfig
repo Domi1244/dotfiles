@@ -16,6 +16,7 @@
 	undopush = push -f origin HEAD^:master
 	oops = commit --amend
   pu = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master"
+	hub = !"open $(git config --get remote.origin.url | sed 's/git@//g' | sed 's/github.com:/http:\\/\\/github.com\\//g' | sed 's/ssh.pushpull.space:/https:\\/\\/pushpull.space\\//g')"
 [user]
 	email = marian.friedmann@gmail.com
 	name = Marian Friedmann
