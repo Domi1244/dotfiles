@@ -24,6 +24,7 @@ ok brew mysql
 ok brew go
 ok brew z
 ok brew git-extras
+ok brew jq
 
 # Cleanup
 bake brew cleanup
