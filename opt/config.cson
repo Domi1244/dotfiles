@@ -67,6 +67,7 @@
   minimap:
     plugins:
       "git-diff": true
+      "git-diffDecorationsZIndex": 0
   "one-dark-ui":
     layoutMode: "Compact"
   "one-light-ui":
