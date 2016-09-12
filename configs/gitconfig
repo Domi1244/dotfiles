@@ -23,7 +23,7 @@
 	name = Marian Friedmann
 [core]
 	quotepath = false
-	excludesfile = /Users/mfr/.gitignore
+	excludesfile = ~/.gitignore
 [color]
 	ui = true
 	branch = auto
