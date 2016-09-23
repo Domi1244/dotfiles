@@ -33,7 +33,8 @@ ok defaults -g com.apple.mouse.tapBehavior integer 1
 ok defaults -g ApplePressAndHoldEnabled bool false
 
 # Set a blazingly fast keyboard repeat rate
-ok defaults -g KeyRepeat integer 0
+ok defaults -g KeyRepeat integer 1
+ok defaults -g InitialKeyRepeat integer 10
 
 # Increase speed of trackpad cursor movement (1-5)
 ok defaults -g com.apple.trackpad.scaling float 2
