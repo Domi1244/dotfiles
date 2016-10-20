@@ -42,6 +42,7 @@
     packagesWithKeymapsDisabled: [
       "spell-check"
     ]
+    telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "duotone-dark-syntax"
