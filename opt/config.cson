@@ -49,7 +49,7 @@
   docblockr: {}
   editor:
     fontFamily: "Operator Mono"
-    fontSize: 19
+    fontSize: 17
     invisibles: {}
     showInvisibles: true
     softWrap: true
