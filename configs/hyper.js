@@ -25,7 +25,7 @@ module.exports = {
     css: '',
 
     // custom css to embed in the terminal window
-    termCSS: '.cursor-node {z-index: -1}',
+    termCSS: '',
 
     // custom padding (css format, i.e.: `top right bottom left`)
     padding: '12px 14px',
@@ -81,7 +81,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [],
+  plugins: ['hypercwd', 'hyperterm-cursor', "hyperterm-blink", "hyperterm-tabs"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
