@@ -30,6 +30,8 @@ module.exports = {
     // custom padding (css format, i.e.: `top right bottom left`)
     padding: '12px 14px',
 
+    cursorBlink: true,
+
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
     // an array here instead of a color map object
@@ -81,7 +83,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hypercwd', 'hyperterm-cursor', "hyperterm-blink", "hyperterm-tabs"],
+  plugins: ['hypercwd', 'hyperterm-cursor', "hyperterm-tabs", "hyper-simple-highlight-active-session"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
