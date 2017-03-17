@@ -17,7 +17,7 @@
 	oops = commit --amend
   pu = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master"
 	hub = !"open $(git config --get remote.origin.url | sed 's/git@//g' | sed 's/github.com:/http:\\/\\/github.com\\//g' | sed 's/pushpull.space:/https:\\/\\/pushpull.space\\//g')"
-	delete-merged-branches = "!git branch --merged | egrep -v '(^\\*|master|dev)' | xargs echo git branch -d"
+	cleanup = "!f() { git branch --merged | grep -v '*' | xargs -n 1 git branch -d; }; f"
 [user]
 	email = marian.friedmann@gmail.com
 	name = Marian Friedmann
