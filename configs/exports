@@ -27,3 +27,10 @@ export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 
 # Update locale
 export LANG="de_DE.UTF-8"
+
+# Tiny Care Terminal
+
+export TTC_REPOS="/Users/MAC-Layout/Dashbrew/public/snapaddy.dev,/Users/MAC-Layout/Server"
+export TTC_SAY_BOX="bunny"
+export TTC_WEATHER="Würzburg, Germany"
+export TTC_APIKEYS="false"

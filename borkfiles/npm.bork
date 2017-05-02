@@ -11,3 +11,5 @@ ok npm localtunnel
 ok npm keybase-installer
 ok npm browserify
 ok npm nativefier
+ok npm tiny-care-terminal
+ok npm git-standup
