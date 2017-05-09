@@ -49,3 +49,8 @@ alias bork="${HOME}/.dotfiles/bork/bin/bork"
 function dotfiles() {
 	cd ~/.dotfiles; ./dotfiles $1; cd - > /dev/null
 }
+
+# Create a from directory
+function zzip() {
+	zip -r -X "$@".zip "$@"
+}
