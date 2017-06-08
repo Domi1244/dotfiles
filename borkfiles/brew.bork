@@ -25,6 +25,7 @@ ok brew go
 ok brew z
 ok brew git-extras
 ok brew jq
+ok brew postgres
 
 # Cleanup
 bake brew cleanup
