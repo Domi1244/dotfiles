@@ -21,6 +21,7 @@ ok cask tigervnc-viewer
 ok cask gitup
 ok cask atext
 ok cask hyper
+ok cask spectacle
 
 # Quick Look plugins - https://github.com/sindresorhus/quick-look-plugins
 ok cask qlcolorcode
