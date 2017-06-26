@@ -65,6 +65,7 @@
   hashrocket:
     nodeExecutablePath: "/usr/local/bin/node"
   "highlight-line":
+    enableBackgroundColor: false
     hideHighlightOnSelect: true
   metrics:
     userId: "acac476432573b0759336f2a823bf5b88559f342"
