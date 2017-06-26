@@ -51,7 +51,7 @@
   docblockr: {}
   editor:
     fontFamily: "Operator Mono"
-    fontSize: 17
+    fontSize: 19
     invisibles: {}
     showInvisibles: true
     softWrap: true
@@ -64,16 +64,16 @@
     html5: "text.html.php"
   hashrocket:
     nodeExecutablePath: "/usr/local/bin/node"
+  "highlight-line":
+    hideHighlightOnSelect: true
   metrics:
     userId: "acac476432573b0759336f2a823bf5b88559f342"
   minimap:
     plugins:
       "git-diff": true
       "git-diffDecorationsZIndex": 0
-  "one-dark-ui":
-    layoutMode: "Compact"
-  "one-light-ui":
-    layoutMode: "Compact"
+  "one-dark-ui": {}
+  "one-light-ui": {}
   pigments:
     ignoredNames: [
       "assets/mootools*"
