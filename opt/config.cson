@@ -45,8 +45,8 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "one-dark-ui"
-      "duotone-dark-syntax"
+      "one-light-ui"
+      "duotone-snow"
     ]
   docblockr: {}
   editor:
