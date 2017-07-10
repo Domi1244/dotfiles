@@ -55,3 +55,6 @@ alias hide="defaults write com.apple.finder AppleShowAllFiles FALSE && killall F
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+# Open chrome canary with disabled websecurity
+alias chrome-disabled-websecurity="open -a Google\ Chrome\ Canary --args --disable-web-security --user-data-dir" 
