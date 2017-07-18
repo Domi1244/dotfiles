@@ -1,92 +1,18 @@
 "*":
-  "*":
-    "atom-beautify":
-      _analyticsUserId: "a16214ef-4e66-4cbd-91a1-69c2d1f6bfca"
-    core:
-      disabledPackages: [
-        "atom-alignment"
-        "atom-color-highlight"
-      ]
-      ignoredNames: [
-        ".git"
-        ".svn"
-        ".DS_Store"
-      ]
-      themes: [
-        "neutron-ui"
-        "neutron-syntax"
-      ]
-    editor:
-      preferredLineLength: 1
-      softWrap: true
-    "exception-reporting":
-      userId: "7b5e9cc8-5e80-0adb-becc-f7440823c7d3"
-    "highlight-line":
-      enableUnderline: true
-      underline:
-        solid: false
-    metrics:
-      userId: "dfdcf7a9edf0c25603df4e067dca3e87503ad0fb"
-    "release-notes":
-      viewedVersion: "0.60.0"
-    welcome:
-      showOnStartup: false
-  "atom-beautify":
-    general:
-      _analyticsUserId: "391fdea6-76e0-4398-8282-928a70f1c7a0"
-  "autocomplete-plus": {}
   core:
-    disabledPackages: [
-      "atom-color-highlight"
-      "spell-check"
-    ]
-    packagesWithKeymapsDisabled: [
-      "spell-check"
-    ]
     telemetryConsent: "no"
     themes: [
       "one-light-ui"
-      "duotone-snow"
+      "one-light-syntax"
     ]
-  docblockr: {}
-  editor:
-    fontFamily: "Operator Mono"
-    fontSize: 19
-    invisibles: {}
-    showInvisibles: true
-    softWrap: true
-    softWrapAtPreferredLineLength: true
-  emmet: {}
   "exception-reporting":
-    userId: "5cfacd02-55ae-f217-339a-86da9cfdcc76"
-  "file-types":
-    hbt: "text.html"
-    html5: "text.html.php"
-  hashrocket:
-    nodeExecutablePath: "/usr/local/bin/node"
-  "highlight-line":
-    enableBackgroundColor: false
-    hideHighlightOnSelect: true
-  metrics:
-    userId: "acac476432573b0759336f2a823bf5b88559f342"
+    userId: "b32c16c7-1603-41c3-93a7-4c092ffe1d20"
+  "file-icons": {}
+  "linter-ui-default":
+    panelHeight: 64
   minimap:
     plugins:
       "git-diff": true
       "git-diffDecorationsZIndex": 0
-  "one-dark-ui": {}
-  "one-light-ui": {}
-  pigments:
-    ignoredNames: [
-      "assets/mootools*"
-    ]
-    mergeColorDuplicates: true
-    sortPaletteColors: "by color"
-  "spell-check": {}
-  tabs:
-    usePreviewTabs: true
-  "the-closer":
-    closeWindowTogetherWithLastTab: false
-  "tree-view":
-    squashDirectoryNames: true
   welcome:
     showOnStartup: false
