@@ -57,4 +57,8 @@ alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && 
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 
 # Open chrome canary with disabled websecurity
-alias chrome-disabled-websecurity="open -a Google\ Chrome\ Canary --args --disable-web-security --user-data-dir" 
+alias chrome-disabled-websecurity="open -a Google\ Chrome\ Canary --args --disable-web-security --user-data-dir"
+
+# Fucking do what I fucking say
+# ⌘c/⌘v from https://twitter.com/aoighost/status/899767947702521856
+alias fucking="sudo"
