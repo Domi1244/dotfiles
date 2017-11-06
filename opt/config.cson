@@ -2,8 +2,8 @@
   core:
     telemetryConsent: "no"
     themes: [
-      "one-light-ui"
-      "one-light-syntax"
+      "city-lights-ui"
+      "city-lights-syntax"
     ]
   "exception-reporting":
     userId: "b32c16c7-1603-41c3-93a7-4c092ffe1d20"
