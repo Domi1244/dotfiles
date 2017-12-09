@@ -19,8 +19,8 @@
 	hub = !"open $(git config --get remote.origin.url | sed 's/git@//g' | sed 's/github.com:/http:\\/\\/github.com\\//g' | sed 's/pushpull.space:/https:\\/\\/pushpull.space\\//g')"
 	cleanup = "!f() { git branch --merged | grep -v '*' | xargs -n 1 git branch -d; }; f"
 [user]
-	email = marian.friedmann@gmail.com
-	name = Marian Friedmann
+	email = hi@dominik-hofmann.ninja
+	name = Dominik Hofmann
 [core]
 	quotepath = false
 	excludesfile = ~/.gitignore
