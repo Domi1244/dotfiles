@@ -1,10 +1,6 @@
 "*":
   core:
     telemetryConsent: "no"
-    themes: [
-      "city-lights-ui"
-      "city-lights-syntax"
-    ]
   "exception-reporting":
     userId: "b32c16c7-1603-41c3-93a7-4c092ffe1d20"
   "file-icons": {}
